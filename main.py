@@ -6,7 +6,7 @@ import os
 urllib3.disable_warnings()
 
 ### URL-s and credentials
-gitlab_url = "http://gitlab.rshbdev.ru"
+gitlab_url = "" ### Ваш домен GitLab
 private_token = os.getenv('GL_TOKEN') ### Временный ApiToken GitLab
 
 ### Авторизация
